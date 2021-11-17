@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table tag colspan and rowspan with color</title>
+</head>
+<body align="center">
+    <h1>Colspan</h1>
+    <Table border="1" width="50%" align="center" cellspacing="0px" cellpadding="30px">
+        <caption>Data 1</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td colspan="2">C</td>
+            
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </Table>
+    <br>
+    <h1>Colspan by Right Side</h1>
+    <Table border="1" width="50%" align="center" cellspacing="0px" cellpadding="30px">
+        <caption>Data 2</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">F</td>
+        </tr>
+    </Table>
+    <h1>Rowspan</h1>
+    <Table border="1" width="50%" align="center" cellspacing="0px" cellpadding="30px">
+        <caption>Data 3</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td rowspan="2">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            
+            <td>F</td>
+        </tr>
+    </Table>
+    <h1>Rowspan by Right Side</h1>
+    <Table border="1" width="50%" align="center" cellspacing="0px" cellpadding="30px">
+        <caption>Data 4</caption>
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </Table>
+    <h1>More span Col and Row</h1>
+    <Table border="1" width="50%" align="center" cellspacing="0px" cellpadding="30px">
+        <caption>Data 5</caption>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td colspan="2" rowspan="">D</td>
+        </tr>
+        <tr>
+            <td colspan="2">C</td>
+            <td rowspan="" colspan="3">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td colspan="2">H</td>
+            <td rowspan="2">L</td>
+            <td rowspan="2">M</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+            
+        </tr>
+    </Table>
+</body>
+</html>

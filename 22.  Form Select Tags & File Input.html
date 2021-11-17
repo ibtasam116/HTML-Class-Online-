@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Select Tags & File Input</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="">Name:</label>
+        <input type="text" name="text" placeholder="Enter Your Name" value="">
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password" name="Password" placeholder="Type Your Password" value="">
+        <br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender" placeholder="" value="" id="Male"><label for="Male">Male</label>
+        <input type="radio" name="Gender" placeholder="" value="" id="Female"><label for="Female">Female</label>
+        <br><br>
+        <label for="">Hobbies:</label>
+        <input type="checkbox" name="Hobby" placeholder="" value="" id="music"><label for="music">Music</label>
+        <input type="checkbox" name="Hobby" placeholder="" value="" id="Games"><label for="Games">Games</label>
+        <input type="checkbox" name="Hobby" placeholder="" value="" id="Movies"><label for="Movies">Movies</label>
+        <input type="checkbox" name="Hobby" placeholder="" value="" id="Study"><label for="Study">Study</label>
+        <br><br>
+        <label for="">Message</label><textarea name="" id="" cols="35" rows="5"></textarea>
+        <br/><br/>
+        <label for="">Country</label>
+        <Select size="3" multiple>
+            <option value="">Pakistan</option>
+            <option value="">Dubia</option>
+            <option value="">Iran</option>
+            <option value="">India</option>
+            <option value="">USA</option>
+        </Select>
+       
+        <label for="">Cars</label>
+        <select name="" id="">
+            <optgroup label="Honda">
+                <option value="">City</option>
+                <option value="">Civic</option>
+            </optgroup>
+            <optgroup label="Toyota">
+                <option value="">Toyota</option>
+                <option value="">Spotage</option>
+            </optgroup>
+        </select>
+        <br/><br/>
+        <label for="">Cars</label><input list="Cars">
+        <datalist id="Cars">
+            <option value="Honda"></option>
+            <option value="Kia"></option>
+            <option value="Toyota"></option>
+            <option value="Suzuki"></option>
+            <option value="Mahran"></option>
+        </datalist>
+        <br/><br/>
+        <label for="">Upload File </label><input type="File" accept="image/*">
+
+    </form>
+</body>
+
+</html>

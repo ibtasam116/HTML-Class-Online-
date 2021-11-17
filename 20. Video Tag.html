@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Tag</title>
+</head>
+<body>
+    <h4>First Way to Add Video in Html</h4>
+    <video src="Videos/Khayalo Ka Shahar.mp4" controls typle="video/mp4" width="200px" height="200px"></video>
+    <video src="Videos/Khayalo Ka Shahar.webm" controls typle="video/webm" width="200px" height="200px"></video>
+    <video src="Videos/Khayalo Ka Shahar.ogg" controls typle="video/ogg" width="200px" height="200px"></video>
+    <h4>Video use in audio Tag of HTML and play only Video Sound</h4>
+    <audio src="Videos/Khayalo Ka Shahar.mp4" controls typle="video/mp4" loop width="200px" height="200px"></audio>
+    <br>
+    <h4>Second Way to Add Video in Html</h4>
+    <video controls loop typle="video/mp4" width="200px" height="200px">
+        <source src="Videos/Khayalo Ka Shahar.mp4">
+    </video>
+    <video controls loop typle="video/ogg" width="200px" height="200px">
+        <source src="Videos/Khayalo Ka Shahar.webm">
+    </video>
+    <video controls loop typle="video/wav" width="200px" height="200px">
+        <source src="Videos/Khayalo Ka Shahar.ogg">
+    </video>
+    <br>
+    <h4>Auto Paly Video in Html (Not Work?)</h4>
+    <video src="Videos/Khayalo Ka Shahar.mp4" controls typle="video/mp4" autoplay width="200px" height="200px"></video>
+    <br>
+    <h4>Loop in Video Tag of Html</h4>
+    <video src="Videos/Khayalo Ka Shahar.mp4" controls typle="video/mp4" loop width="200px" height="200px"></video>
+    <br>
+    <h4>Muted Function in video Tag of Html</h4>
+    <video src="Videos/Khayalo Ka Shahar.mp4" controls typle="video/mp4" muted width="200px" height="200px"></video>
+    <br>
+</body>
+</html>
